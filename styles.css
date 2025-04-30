@@ -1,0 +1,78 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #fffaf3;
+  color: #333;
+}
+
+header {
+  background-color: #4b2e2e;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085') center/cover no-repeat;
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #4b2e2e;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+}
+
+#menu .menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+#menu .menu-list li {
+  background-color: #f2eae1;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-left: 5px solid #4b2e2e;
+}
+
+footer {
+  background-color: #4b2e2e;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
